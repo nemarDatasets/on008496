@@ -1,11 +1,13 @@
 {
   "version": "2.0",
-  "dataset_id": "on008496",
-  "source": "openneuro",
-  "source_id": "ds008496",
+  "pipeline_stage": "validated",
   "title": "EEG RKI",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Achmad Imam Kistijantoro": {},
+    "Achmad Imam Kistijantoro": {
+      "orcid": "0000-0003-2065-6675"
+    },
     "Lianna G. H. Margareta": {},
     "Haura R. Haminullah": {},
     "Qurotul Uyun": {},
@@ -15,21 +17,61 @@
     "Nur Ahmadi": {},
     "Ayu Purwarianti": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008496.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on008496",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on008496",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "36 B (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset contains electroencephalogram (EEG) recordings from 15 university students (8 males, 7 females; ages 21-23) collected to investigate brain connectivity during learning processes involving generative AI. Participants performed essay-writing tasks under different AI interaction conditions to assess cognitive states such as creativity, memory, and critical thinking.",
+  "methods_description": "EEG data were recorded while participants performed an essay-writing task under varying AI interaction conditions, designed to elicit and assess cognitive processes including creativity, memory, and critical thinking.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain connectivity"
+    },
+    {
+      "term": "Cognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+    },
+    {
+      "term": "creativity"
+    },
+    {
+      "term": "generative AI"
+    },
+    {
+      "term": "learning"
+    }
+  ],
+  "source_hash": "18e1f362698b655a242ce76381b04ef7f7378c8f4a8fa860395c645ca8a02e43"
 }
