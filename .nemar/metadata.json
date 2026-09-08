@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG RKI",
-  "description": "This dataset comprises electroencephalogram (EEG) recordings from 15 university students (8 males, 7 females) aged 21-23 years, collected to investigate brain connectivity during learning processes involving generative AI. Participants performed essay-writing tasks under varying AI interaction conditions, enabling assessment of cognitive processes such as creativity, memory, and critical thinking.",
-  "methods_description": "EEG data were recorded from participants while they performed an essay-writing task under different AI interaction conditions, designed to assess cognitive activity including creativity, memory, and critical thinking.",
+  "description": "This dataset contains electroencephalogram (EEG) recordings from 15 university students (8 males, 7 females; aged 21-23 years) collected to investigate brain connectivity during learning processes involving generative AI. Participants performed essay-writing tasks under varying AI interaction conditions, enabling assessment of cognitive states such as creativity, memory, and critical thinking.",
+  "methods_description": "EEG data were recorded while participants performed an essay-writing task under different AI interaction conditions, designed to assess cognitive activity including creativity, memory, and critical thinking.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,18 +29,16 @@
       "term": "brain connectivity"
     },
     {
-      "term": "Cognition",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+      "term": "cognitive load"
+    },
+    {
+      "term": "creativity"
     },
     {
       "term": "generative AI"
     },
     {
       "term": "learning process"
-    },
-    {
-      "term": "creativity"
     }
   ],
   "related_identifiers": [
