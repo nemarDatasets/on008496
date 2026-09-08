@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG RKI",
+  "description": "This dataset comprises electroencephalogram (EEG) recordings from 15 university students (8 males, 7 females; ages 21-23) collected to investigate brain connectivity during learning processes involving generative AI. Participants performed essay-writing tasks under varying AI interaction conditions, allowing assessment of cognitive states such as creativity, memory, and critical thinking. The data support research into how AI assistance influences neural correlates of student learning and cognition.",
+  "methods_description": "EEG was recorded from 15 subjects while they performed an essay-writing task under different AI interaction conditions, designed to assess cognitive states including creativity, memory, and critical thinking.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,12 +19,38 @@
     "Nur Ahmadi": {},
     "Ayu Purwarianti": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds008496.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Brain Connectivity"
+    },
+    {
+      "term": "Cognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+    },
+    {
+      "term": "Creativity",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003405"
+    },
+    {
+      "term": "Generative AI"
+    },
+    {
+      "term": "Learning",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007858"
+    },
+    {
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on008496",
       "identifier_type": "URL",
@@ -32,14 +60,19 @@
       "identifier": "https://nemar.org/dataset/on008496",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds008496.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "36 B (1 files)"
+    "1.17 GB (31 files)"
   ],
   "formats": [
     ".fdt",
@@ -49,29 +82,5 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset contains electroencephalogram (EEG) recordings from 15 university students (8 males, 7 females; ages 21-23) collected to investigate brain connectivity during learning processes involving generative AI. Participants performed essay-writing tasks under different AI interaction conditions to assess cognitive states such as creativity, memory, and critical thinking.",
-  "methods_description": "EEG data were recorded while participants performed an essay-writing task under varying AI interaction conditions, designed to elicit and assess cognitive processes including creativity, memory, and critical thinking.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain connectivity"
-    },
-    {
-      "term": "Cognition",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
-    },
-    {
-      "term": "creativity"
-    },
-    {
-      "term": "generative AI"
-    },
-    {
-      "term": "learning"
-    }
-  ],
-  "source_hash": "18e1f362698b655a242ce76381b04ef7f7378c8f4a8fa860395c645ca8a02e43"
+  "source_hash": "11f88c4e5da867a1962cb4610f2600fa28284229209aaa47c52b34d34d8db9f5"
 }
